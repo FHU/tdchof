@@ -1,0 +1,118 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+header {
+    background: #0094ff;
+    overflow:auto;
+}
+
+#logo {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+header input {
+    height: 1.2em;
+    width: 30%;
+    font-size: 1.2em;
+    margin: 5px 9% 5px 30%;
+}
+
+header a#profileLink {
+    float:right;
+}
+
+header a img{
+    width:50px;
+    border-radius: 5px;
+}
+
+#mainContent {
+    clear:both;
+    max-width: 980px;
+    margin: 0 auto;
+    overflow:auto;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+section h2 {
+
+    text-align: center;
+
+}
+
+section ol {
+    font-size:2em;
+    font-weight:bold;
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+section li {
+    clear: both;
+    margin-bottom: 1em;
+    counter-increment: step-counter;
+    
+}
+
+section li:before {
+    content: counter(step-counter);
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: #0094ff;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+    float:left;
+    
+}
+
+section .tweet {
+    margin: 0px 20px 5px 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow:auto;
+} 
+
+section li p{
+    font-size: 0.5em;
+    font-weight:normal;
+    margin-left: 100px;
+}
+
+section .tweet img {
+    width: 80px;
+    float: left;
+    border-radius: 5px;
+}
+
+.moreTweetsLink {
+    clear:both;
+}
+
+footer {
+    clear: both;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
