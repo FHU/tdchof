@@ -3,16 +3,20 @@
 <head>
     <title>#TweetsDuringChapel Hall of Fame</title>
 	<meta charset="utf-8" />
+
+    <link href="Content/normalize.css" rel="stylesheet" />
+    <link href="Content/style.css" rel="stylesheet" />
+
 </head>
 <body>
 
     <header>
         
-        <a href="index.html" id="logo"> TDC HOF </a> 
+        <a href="index.html" id="logo"> #tweetsDuringChapel Hall of Fame </a> 
 
-        <input type="text" />
+        <input type="text" id="searchTextbox"/>
 
-        <a href="profile.html"> <img src="Images/kc.jpg" />  </a>
+        <a href="profile.html"> <img src="Images/kc.jpg"  id="profileAvatar"/>  </a>
 
     </header>
 
@@ -23,15 +27,15 @@
 
             <ol>
                 <li>
-                     <div>
+                     <div class="tweet">
                          <img src="Images/kc.jpg" /> 
-                         <p> Kenan Casey   <span class="username" >  @kenancasey </span> | <span class="timeAgo" > 2h </span> </p>
-                         <p> Why I want Swift to be your first language. <a href="#" >aaronblock.com</a> </p>
+                         <p> <span class="name"> Kenan Casey </span>   <span class="username" >  @kenancasey </span> | <span class="timeAgo" > 2h </span> </p>
+                         <p> Why I want Swift to be your first language. <a href="#" >aaronblock.com</a>Why I want Swift to be your first language. <a href="#">aaronblock.com</a>Why I want Swift to be your first language. <a href="#">aaronblock.com</a> </p>
                      </div>
                 </li>
 
                 <li>
-                    <div>
+                    <div class="tweet">
                         <img src="Images/kc.jpg" />
                         <p> Kenan Casey   <span class="username">  @kenancasey </span> | <span class="timeAgo"> 2h </span> </p>
                         <p> Why I want Swift to be your first language. <a href="#">aaronblock.com</a> </p>
@@ -39,7 +43,7 @@
                 </li>
 
                 <li>
-                    <div>
+                    <div class="tweet">
                         <img src="Images/kc.jpg" />
                         <p> Kenan Casey   <span class="username">  @kenancasey </span> | <span class="timeAgo"> 2h </span> </p>
                         <p> Why I want Swift to be your first language. <a href="#">aaronblock.com</a> </p>
@@ -47,7 +51,7 @@
                 </li>
 
                 <li>
-                    <div>
+                    <div class="tweet">
                         <img src="Images/kc.jpg" />
                         <p> Kenan Casey   <span class="username">  @kenancasey </span> | <span class="timeAgo"> 2h </span> </p>
                         <p> Why I want Swift to be your first language. <a href="#">aaronblock.com</a> </p>
@@ -55,7 +59,7 @@
                 </li>
 
                 <li>
-                    <div>
+                    <div class="tweet">
                         <img src="Images/kc.jpg" />
                         <p> Kenan Casey   <span class="username">  @kenancasey </span> | <span class="timeAgo"> 2h </span> </p>
                         <p> Why I want Swift to be your first language. <a href="#">aaronblock.com</a> </p>
@@ -64,7 +68,7 @@
 
             </ol>
 
-            <a href="see more tweets..." > </a>
+            <a href="#" class="clear"> see more tweets... </a>
 
         </section>
 
